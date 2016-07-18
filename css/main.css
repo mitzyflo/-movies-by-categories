@@ -1,0 +1,49 @@
+body{
+	background: #424242;
+}
+header{
+	background: #EE4F4F;
+}
+label{
+	color: #fff;
+}
+.form-group{
+	padding: 3%;
+}
+.form-control{
+	width: 20%;
+}
+.fnd{
+	color: #fff;
+	font-size: 40px;
+	margin: 0;
+	padding: 3%;
+}
+.row{
+	margin: 0;
+}
+li{
+	display: inline-block;
+	margin: 2px;
+}
+img{
+	width: 90%;
+}
+.img-circle{
+border: 5px solid #ccc;
+float: left;
+margin: 15px;
+-webkit-transition: margin 0.5s ease-out;
+-moz-transition: margin 0.5s ease-out;
+-ms-transition: margin 0.5s ease-out;
+transition: margin 0.5s ease-out;
+}
+
+@media (max-width: 600px) {
+  	iframe{
+    max-width: 100%;
+  }
+ 	.img-circle{
+  	max-width: 25%;
+  }
+}
